@@ -9,7 +9,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 @Configuration
-@ComponentScan("com.ohgiraffers.autoconfiguration")
+@ComponentScan("com.ohgiraffers.autoconfiguration") //;;
 public class SpringConfiguration {
 
     @Value("${test.value}")
